@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+    title = 'Admin'
+    meta name="description" content=""
+
+    = stylesheet_link_tag 'admin/application', media: 'all'
+    = csrf_meta_tags
+
+  body
+    = render 'layouts/shared/admin_navbar'
+    = yield
+    = javascript_include_tag 'application'

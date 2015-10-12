@@ -1,0 +1,31 @@
+.navigation {
+  position: fixed;
+  top:0;
+  width: 100%;
+  background-color: #000123;
+  border-bottom: 5px solid #ff2261;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  height: 70px;
+  font-size: 0;
+  text-align: center;
+  li {
+    transition: background-color 1.0s ease;
+    &:hover {
+      background-color: #ff2261;
+      border-bottom: 5px solid white;
+    }
+    display: inline-block;
+    a {
+      padding: 22px 45px;
+      display: block;
+      margin: 0;
+      color: #FFFFFF;
+      font-size: 22px;
+      text-decoration: none;
+    }
+  }
+}

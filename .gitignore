@@ -1,0 +1,62 @@
+# Rails specific
+*.rbc
+*.sassc
+.sass-cache
+.autotest
+capybara-*.html
+.rspec
+/log
+/tmp
+/db/*.sqlite3
+/public/system
+/public/assets
+/coverage/
+/spec/tmp
+pg
+**.orig
+rerun.txt
+pickle-email-*.html
+config/initializers/secret_token.rb
+config/secrets.yml
+
+# I18n generated file
+#/app/assets/javascripts/i18n
+
+## Environment normalisation:
+/.bundle
+/vendor/bundle
+
+# TextMate
+*.tmproj
+*.tmproject
+tmtags
+
+# SublimeText
+*.sublime-workspace
+
+# Phpstorm
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# NetBeans
+nbproject/*
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Linux
+*~
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# NodeJS specific for bower components
+/vendor/assets/bower_components/
+/node_modules
+npm-debug.log
